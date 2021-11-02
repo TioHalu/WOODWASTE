@@ -26,11 +26,23 @@ p {
     background-color: #C4C4C4;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
-    justify-content: space-around;
+    justify-content: ;
+}
+
+a {
+    text-align: center;
 }
 
 .nav-link {
     color: grey;
+}
+
+ul {
+    align-items: center;
+}
+
+i {
+    font-size: 30px;
 }
 
 
@@ -106,7 +118,7 @@ sub {
 
 /* `sm` applies to x-small devices (portrait phones, less than 576px) */
 
-@media (max-width: 750px) {
+@media (max-width: 767px) {
     body {
         font-size: 9px;
     }
@@ -119,8 +131,8 @@ sub {
     .nav-link {
         font-size: 9px;
     }
-    .navbar-bottom {
-        background-color: #C4C4C4;
+    i {
+        font-size: 14px;
     }
     .card1 {
         border-color: #4F574C;
@@ -144,5 +156,8 @@ sub {
         width: 60px;
         justify-content: end;
         position: absolute;
+    }
+    h5 {
+        font-size: 9px;
     }
 }
